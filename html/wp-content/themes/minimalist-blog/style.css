@@ -20,3 +20,13 @@ Tags: blog, news, two-columns, right-sidebar, custom-menu, custom-logo, editor-s
 .text-center {
     text-align: center;
 }
+
+.responsive {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+.responsive img {
+    width: 100%;
+    height: auto;
+}

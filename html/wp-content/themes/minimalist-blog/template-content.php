@@ -18,11 +18,10 @@ get_header(); ?>
     $price_venti = "price_venti";
 
 ?>
+    <div class="responsive">
+		<?php echo the_post_thumbnail(); ?>
+    </div>
     <div class="container">
-        <div>
-            <h1><?php echo get_the_title(); ?></h1>
-        </div>
-
         <table class="w-100">
             <thead>
             <tr>
